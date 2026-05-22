@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="background-image"></div>
+  <main class="player">
+    <audio id="audio"></audio>
+    <section class="card">
+
+      <div class="cover">
+        <img src="assets/images/icarus_falls.png" alt="Album Cover">
+        </div>
+        <div class="info">
+        <h1 class="title">There You Are</h1>
+        <p class="artist">ZAYN</p>
+      </div>
+
+      <div class="controls">
+        <button id="prevBtn"><span>⏮</span></button>
+        <button id="playBtn" class="play"><span>▶</span></button>
+        <button id="nextBtn"><span>⏭</span></button>
+      </div>
+
+      <div class="progress-area">
+        <span id="currentTime">0:00</span>
+        <input type="range" min="0" max="100" value="0" class="progress">
+        <span id="duration">3:45</span>
+      </div>
+
+      <div class="volume-area">
+        <input type="range" min="0" max="100" value="80" class="volume">
+      </div>
+
+    </section>
+
+<aside class="playlist">
+  <h2>Playlist</h2>
+
+  <div class="songs">
+    <div class="song">
+      <span class="name">Nonsense</span>
+      <span class="time">2:43</span>
+    </div>
+
+    <div class="song">
+      <span class="name">Friends</span>
+      <span class="time">3:15</span>
+    </div>
+
+    <div class="song">
+      <span class="name">Remember</span>
+      <span class="time">3:09</span>
+    </div>
+  </div>
+</aside>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
