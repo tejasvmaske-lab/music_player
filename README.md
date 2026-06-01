@@ -176,4 +176,4 @@ It genuinely helps and motivates future development.
 
 # 👨‍💻 Author
 
-Built with curiosity, experimentation, debugging pain, and late-night ideas by **Tejas Maske** 🚀
+Built with curiosity, experimentation, debugging pain, and late-night ideas by **Tejas Vinay Maske** 🚀
